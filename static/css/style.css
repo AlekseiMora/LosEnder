@@ -1,0 +1,122 @@
+a{
+	text-decoration: none;
+}
+body{
+	font-size: 16px;
+	background: rgb(157, 133, 133);
+	text-align: center;
+}
+
+/*Utilidades*/
+/*.u-derecha{
+	right: 5em;
+	margin-left: 25%;
+
+}
+.u-izquierda{
+	left: 5em;
+	margin-right: 25%;
+}
+.u-izquierda,
+.u-derecha{
+	display: inline-block;
+	position: absolute;
+	
+}
+
+/*Instrucciones*/
+#Jugar{
+	background: rgb(27, 114, 176);
+	border-radius: 50%;
+	border-style: none;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	color: white;
+	font-size: 2em;
+	width: 10em;
+	height: 10em;
+}
+#Jugar:active{
+		box-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+		background: rgba(27, 114, 176, .25);
+		color: whitesmoke;
+	}
+}
+
+/*Botones*/
+.Tierra,
+.Muerte{
+	
+}
+
+.Vida,
+.Aire{
+	
+}
+
+.Agua,
+.Fuego{
+	
+}
+
+.Choice{
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	right: 25%;
+}
+.Choice-buttons{
+	border-radius: 50%;
+	border-style: none;
+	height: 7em;
+	margin: 0 2.5em 5%;
+	width: 7em;
+}
+
+
+/*Juego*/
+.Juego{
+	margin-top: 2em;
+	text-align: center;
+}
+#campo{
+	width: 30em;
+	height: 30em;
+	border: 5px solid black;
+	display: inline-block;
+
+}
+/*Header*/
+
+.Header-instrucciones{
+	color: white;
+	text-align: left;
+	line-height: 3em;
+	font-style: italic;
+	margin-left: 25%;
+	margin-top: 2em;
+	width: 50%;
+}
+.Header-titulo {
+	background: rgba(174, 0, 0, 0.26);
+	font-size: 2em;
+	font-style: bold;
+	line-height: 2em;
+	height: 2em;
+	text-align: center;	
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.Header-subtitulo{
+	margin-top: 1em;
+	padding-bottom: 1em;
+}
+
+/*Contacto*/
+.Footer-suggest{
+	font-size: 4em;
+}
+/*Esconder*/
+.Hidden{
+	display: none;
+}
+

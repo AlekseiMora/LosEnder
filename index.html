@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>La leyenda de los Ender</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="static/js/instrucciones.js"></script>
+	<script type="text/javascript" src="static/js/enders.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+	<header class="Header">
+		<h1 class="Header-titulo">El juego de los Ender</h1>
+	</header>
+		<span class="">
+			<p class="Header-instrucciones u-instrucciones">Instrucciones: <br>1.- Elige con el botón a tu personaje.<br>2.- Con las flechas del teclado pon tu personaje sobre los Ender enemigos.<br>3.- Vence a todos para ganar. <br>¡Diviértete! :D</p>
+			<button id="Jugar" onclick="transEnder(this)">¡Quiero jugar!</button>
+		</span>
+		<nav class="Choice">
+			<button id = "0" class= "Choice-buttons u-derecha Tierra" onclick="transJuego(this)">Tierra</button>
+			<button id = "1" class= "Choice-buttons u-derecha Fuego" onclick="transJuego(this)">Fuego</button>
+			<button id = "4" class= "Choice-buttons u-derecha Aire" onclick="transJuego(this)">Aire</button>
+			<button id = "5" class= "Choice-buttons u-izquierda Agua" onclick="transJuego(this)">Agua</button>
+			<button id = "2" class= "Choice-buttons u-izquierda Muerte" onclick="transJuego(this)">Muerte</button>
+			<button id = "3" class= "Choice-buttons u-izquierda Vida" onclick="transJuego(this)">Vida</button>
+		</nav>	
+	<section class="Juego" id = "Juego">
+
+		<canvas id="campo" class="Juego-campo"></canvas>
+	</section>
+	<footer class="Footer">
+		<h2 class="Footer-suggest">¡Ganaste!</h2>
+		<p class="Footer-contacto">Encuéntrame en Facebook y en Twitter</p>
+		<p class="Footer-contacto"><a href="https://medium.com/era-natural/era-natural-dcfc46f8d018" target="_blank">¡Descubre más acerca de los Ender!</a></p>
+		<ul class="Footer-nav">
+			<li class="Footer-list"><a href="http://facebook.com/aleks.mora" class="Footer-links"target="_blank">Aleksei Sascha Mora</a></li>
+			<li class="Footer-list"><a href="http://twitter.com/Aleks_Mora" class="Footer-links"target="_blank">@Aleks_Mora</a></li>
+		</ul>
+	</footer>
+	<script type="text/javascript">
+		juego();
+	</script>
+</body>
+</html>	
